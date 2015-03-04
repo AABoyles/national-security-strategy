@@ -1,7 +1,7 @@
 shinyUI(navbarPage("Exploring the U.S. National Security Strategy Reports",
   tabPanel("About",
     fluidRow(
-      column(6,
+      column(6, offset = 3,
       p("This app lets you use some basic text-mining procedures to explore change over time in the
         national security concerns of the U.S. government as reflected in the 16 U.S. National Security
         Strategy Reports published irregularly by the White House from 1987 to 2015. The motivating
